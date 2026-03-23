@@ -8,4 +8,4 @@ FROM
 WHERE 
     iva = 20
 GROUP BY 
-    EXTRACT(YEAR FROM data_fattura);
+    anno_fattura;

@@ -8,6 +8,6 @@ SELECT
 FROM 
     fatture
 GROUP BY 
-    EXTRACT(YEAR FROM data_fattura)
+    anno_fattura
 ORDER BY 
     anno_fattura;

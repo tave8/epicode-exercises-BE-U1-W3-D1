@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/11_quanti_clienti_nati_in_1980_con_fattura_piu_50.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/3_quante_fatture_con_iva_20.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/insert/clienti.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/insert/prodotti.sql" dialect="PostgreSQL" />

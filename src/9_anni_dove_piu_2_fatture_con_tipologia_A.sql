@@ -9,7 +9,7 @@ WITH Q1 AS (
     WHERE 
         tipologia = 'A'
     GROUP BY 
-        EXTRACT(YEAR FROM data_fattura)
+        anno_fattura
     HAVING
         COUNT(numero_fattura) > 2
 ),
