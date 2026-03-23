@@ -53,3 +53,22 @@ VALUES
     ('A', 25, 20, 2, 2);
 
 
+
+INSERT INTO
+    fatture
+(tipologia, importo, iva, id_cliente, numero_fornitore, data_fattura)
+VALUES
+    ('B', 25, 20, 2, 2, '2017-09-15');
+
+
+INSERT INTO
+    fatture
+(tipologia, importo, iva, id_cliente, numero_fornitore, data_fattura)
+VALUES
+    ('C', 25, 21, 2, 2, '2012-09-15');
+
+INSERT INTO
+    fatture
+(tipologia, importo, iva, id_cliente, numero_fornitore, data_fattura)
+VALUES
+    ('A', 25, 20, 3, 3, '2029-11-02');
